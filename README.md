@@ -64,7 +64,9 @@ For PHP:
 [more extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
 
 # How to use this configuration
-Generall configuration can be changed in ./genral/settings.vim
+
+Generall configuration can be changed in `./genral/settings.vim`.
+
 `MAPLEADER` is the `,` key.
 - Press `CTRL + T` to open a terminal in `INSERT MODE`.
 - Press `CTRL + N` to open `NERDTREE` in current working directory.
