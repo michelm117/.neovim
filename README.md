@@ -24,7 +24,6 @@ export PATH=$HOME/.local/bin:$PATH
 ## Install nvim Plugins
 Run the following commands inside nvim
 ```
-nvim
 :PlugInstall
 :UpdateRemotePlugins
 :q
@@ -56,3 +55,10 @@ For PHP:
 ```
 
 [more extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions)
+
+# How to use this configuration
+Generall configuration can be changed in ./genral/settings.vim
+`MAPLEADER` is the `,` key.
+- Press `CTRL + T` to open a terminal in `INSERT MODE`.
+- Press `MAPLEADER + h` to split window horizontally.
+- Press `MAPLEADER + v` to split window vertically.
